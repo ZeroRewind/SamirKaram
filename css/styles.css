@@ -58,7 +58,7 @@ margin:auto;
 
 .lifestory {
   font-size:125%;
-  text-align: center;
+
   width: 90%;
   margin: auto;
 }
@@ -78,8 +78,10 @@ margin:auto;
 
 .social-icon {
   margin: 20px 30px;
+  font-size: 2em;
   color: #aa3737;
 }
+
 
 
 /*Chrome*/
