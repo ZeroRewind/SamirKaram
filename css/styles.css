@@ -1,26 +1,32 @@
 body {
-  font-family: "Libre Baskerville", serif;
+  font-family: "Libre Baskerville", sans-serif;
   text-align:center;
   background-color:#120101 ;
 
 }
 
 h1, h2, h3, h4, h5, h6, p {
-  font-family: "Libre Baskerville", serif;
+  font-family: "Libre Baskerville", sans-serif;
   color:#aa3737;
 }
 
 header{position:fixed;
-width:100%;}
+width:100%;
+}
 
 /*NAVBAR*/
 
 #title {
   z-index: -1;
+
 }
 
 #title .container-fluid {
     background:#1f0002;
+}
+
+.colored-section{
+
 }
 
 .navbar-brand {
@@ -33,7 +39,7 @@ width:100%;}
 
 .nav-link {
   margin-right: 50px;
-  font-size: 15px;
+  font-size: 2.5rem;
   font-family: 'Libre Baskerville', serif;
 }
 
@@ -65,7 +71,7 @@ height:auto;
 
 .lifestory
 {padding:1% 1% 1%;
-  font-size:15px;
+  font-size:1.8rem;
   text-align:center;
   width: 70%; margin:auto;}
 
