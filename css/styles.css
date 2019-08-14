@@ -1,6 +1,7 @@
 body {
   text-align: center;
   background-color: #120101;
+  font-size:16px;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -24,20 +25,10 @@ header {
 
 .colored-section {}
 
-.navbar-brand {
-  font-family: 'Libre Baskerville', serif;
-
-  font-size: 2rem;
-}
-
 .nav-link {
   margin-right: 50px;
-  font-size: 2rem;
+  font-size:200%;
   font-family: 'Ubuntu', sans-serif;
-}
-
-.navbar-dark .navbar-brand {
-  color: #aa3737;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -62,8 +53,7 @@ header {
 }
 
 .lifestory {
-
-  font-size: 165%;
+  font-size:125%;
   text-align: center;
   width: 90%;
   margin: auto;
@@ -85,4 +75,12 @@ header {
 .social-icon {
   margin: 20px 30px;
   color: #aa3737;
+}
+
+
+/*Chrome*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  Body {
+    font-size: 20px;
+    }
 }
