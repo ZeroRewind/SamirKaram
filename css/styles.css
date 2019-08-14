@@ -23,11 +23,15 @@ header {
   background: #1f0002;
 }
 
-.colored-section {}
+.navbar-dark .navbar-toggler
+{
+  position: relative;
+margin:auto;
+}
 
 .nav-link {
-  margin-right: 50px;
-  font-size:200%;
+  margin:auto;
+  font-size:150%;
   font-family: 'Ubuntu', sans-serif;
 }
 
