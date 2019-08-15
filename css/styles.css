@@ -58,11 +58,11 @@ margin:auto;
   position: relative;
   text-align: center;
   margin-top: 20%;
+  padding-top:5%;
 }
 
 .lifestory {
   font-size:125%;
-
   width: 90%;
   margin: auto;
 }
@@ -71,13 +71,28 @@ margin:auto;
 #books {
   z-index: -2;
   position: relative;
-  height: 300px;
+  height: 900px;
   margin-top: 10%;
 }
+
+.coverart{
+  height:600px;
+  width:auto;
+}
+
+.description , .prices
+{height: 600px;
+padding: 2% 2% 2%;}
+
+
+
 
 /*Footer*/
 #footer {
   margin-top: 10%;
+  z-index: -2;
+  position:relative;
+  top:300px;
 }
 
 .social-icon {
