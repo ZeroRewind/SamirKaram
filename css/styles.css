@@ -31,12 +31,16 @@ margin:auto;
 
 .nav-link {
   margin:auto;
+
   font-size:150%;
   font-family: 'Ubuntu', sans-serif;
 }
 
+
+
 .navbar-dark .navbar-nav .nav-link {
   color: #aa3737;
+  padding-right:25px;
 }
 
 /*Image*/
