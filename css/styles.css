@@ -14,6 +14,10 @@ header {
   width: 100%;
 }
 
+h1{
+  margin-bottom:70px;
+}
+
 /*NAVBAR*/
 #title {
   z-index: -1;
@@ -75,16 +79,10 @@ margin:auto;
   margin-top: 10%;
 }
 
-.coverart{
-  
+.coverart ,.description , .prices
+{
+  padding: 2% 2% 10%;
 }
-
-.description , .prices
-{height: 600px;
-padding: 2% 2% 2%;}
-
-
-
 
 /*Footer*/
 #footer {
