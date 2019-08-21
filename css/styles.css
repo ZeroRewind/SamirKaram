@@ -60,7 +60,7 @@ margin:auto;
   background-color: #1f0002;
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
-  padding: 14px 16px;
+  padding: 32px 40px;
   text-decoration: none;
   font-size: 25px;
 }
@@ -132,7 +132,7 @@ margin:auto;
   position: relative;
   height: 900px;
   margin-top: 10%;
-  padding-top:7%;
+  padding-top:15%;
 }
 
 .row{
