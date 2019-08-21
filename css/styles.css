@@ -23,7 +23,6 @@ h1{
   z-index: -1;
 
 }
-/* chicken winger of doom */
 /*
 .title-section .container-fluid {
   background: #1f0002;
@@ -58,7 +57,7 @@ margin:auto;
   float: left;
   display: block;
   color: #aa3737;
-
+  background-color: #1f0002;
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
   padding: 14px 16px;
