@@ -26,11 +26,13 @@ h1 {
 .topnav {
   overflow: hidden;
   background-color: #1f0002;
+  display:flex;
+flex-direction: row;
+flex-wrap: nowrap;
 }
 
 .topnav a {
-  float: left;
-  display: block;
+
   color: #aa3737;
   background-color: #1f0002;
   font-family: 'Ubuntu', sans-serif;
