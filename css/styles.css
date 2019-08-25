@@ -37,9 +37,9 @@ flex-wrap: nowrap;
   background-color: #1f0002;
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
-  padding: 32px 40px;
+  padding:24px 40px;
   text-decoration: none;
-  font-size: 26px;
+  font-size: 22px;
 }
 
 .topnav a:hover {
@@ -71,7 +71,7 @@ flex-wrap: nowrap;
   position: relative;
   text-align: center;
   margin-top: 20%;
-  padding-top: 15%;
+  padding-top: 8%;
 }
 
 .lifestory {
@@ -85,8 +85,8 @@ flex-wrap: nowrap;
   z-index: -2;
   position: relative;
   height: 900px;
-  margin-top: 10%;
-  padding-top: 15%;
+
+  padding-top: 8%;
 }
 
 .row {
