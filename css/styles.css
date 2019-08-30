@@ -1,12 +1,12 @@
 body {
   text-align: center;
-  background-color: #120101;
+  background-color: #393e46;
   font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6, p {
   font-family: 'Libre Baskerville', serif;
-  color: #aa3737;
+  color: #00adb5;
 }
 
 header {
@@ -25,7 +25,7 @@ h1 {
 .topnav {
 
   overflow: hidden;
-  background-color: #1f0002;
+  background-color: #222831;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -34,8 +34,8 @@ h1 {
 }
 
 .topnav a {
-  color: #aa3737;
-  background-color: #1f0002;
+  color: #00adb5;
+  background-color: #222831;
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
   padding: 20px 32px;
@@ -50,7 +50,7 @@ h1 {
 }
 
 .topnav a.active {
-  background-color: #aa3737;
+  background-color: #00adb5;
   color: white;
 }
 
@@ -84,13 +84,15 @@ h1 {
 
 /*Books*/
 .book-section {
-
+  background-color:#2b2f36;
   position: relative;
   height: 900px;
   padding-top: 8%;
+
 }
 
 .row {
+  background-color:#2b2f36;
   margin-right: 0;
   margin-left: 0;
 }
@@ -101,17 +103,13 @@ h1 {
 
 /*Footer*/
 .footer-section {
-  margin-top: 10%;
-
-  position: relative;
-  top: 500px;
-  border-top: 2px solid #aa3737;
+  border-top: 2px solid #00adb5;
 }
 
 .social-icon {
   margin: 20px 30px;
   font-size: 2em;
-  color: #aa3737;
+  color: #00adb5;
 }
 
 /*EditingPage*/
@@ -130,30 +128,26 @@ h1 {
 }
 
 .border-line {
-  border:1px solid #aa3737;
+  border:1px solid #00adb5;
   padding: 5% 2% 5%;
 }
 
 .money-maker{
-  background-color:#aa3737;
+  background-color:#00adb5;
   color:#120101;
   font-family:'Libre Baskerville';
   font-size:30px;
 }
 
 .money-maker:hover{
-  background-color:#120101;
-  color:#aa3737;
-  border:1px solid #aa3737;
+  background-color:#393e46;
+  color:#00adb5;
+  border:1px solid #00adb5;
 }
 
-.foot-section {
-  margin-top: 1%;
-
-  position: relative;
-  border-top: 2px solid #aa3737;
+.contactr{
+  background-color:#2b2f36;
 }
-
 
 .tiny{
   width:70%;
