@@ -12,6 +12,7 @@ h1, h2, h3, h4, h5, h6, p {
 header {
   position: fixed;
   width: 100%;
+  z-index:9000;
 }
 
 h1 {
@@ -19,27 +20,28 @@ h1 {
 }
 
 /*NAVBAR*/
-.title-section {
-  z-index: -1;
-}
+
 
 .topnav {
+
   overflow: hidden;
   background-color: #1f0002;
-  display:flex;
-flex-direction: row;
-flex-wrap: nowrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+
 }
 
 .topnav a {
-
   color: #aa3737;
   background-color: #1f0002;
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
-  padding:24px 40px;
+  padding: 20px 32px;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 18px;
+
 }
 
 .topnav a:hover {
@@ -56,9 +58,9 @@ flex-wrap: nowrap;
   display: none;
 }
 
-/*Image powa*/
+/*Image powaa*/
 .cover {
-  z-index: -2;
+
   position: relative;
   top: 55px;
   width: 100%;
@@ -67,7 +69,7 @@ flex-wrap: nowrap;
 
 /*About me*/
 .about-section {
-  z-index: -2;
+
   position: relative;
   text-align: center;
   margin-top: 20%;
@@ -82,10 +84,9 @@ flex-wrap: nowrap;
 
 /*Books*/
 .book-section {
-  z-index: -2;
+
   position: relative;
   height: 900px;
-
   padding-top: 8%;
 }
 
@@ -101,9 +102,10 @@ flex-wrap: nowrap;
 /*Footer*/
 .footer-section {
   margin-top: 10%;
-  z-index: -2;
+
   position: relative;
   top: 500px;
+  border-top: 2px solid #aa3737;
 }
 
 .social-icon {
@@ -111,6 +113,55 @@ flex-wrap: nowrap;
   font-size: 2em;
   color: #aa3737;
 }
+
+/*EditingPage*/
+.explanation-section{
+  position: relative;
+  text-align: center;
+   margin-top: 500px;
+  padding-top: 8%;
+}
+
+.package-section {
+
+  position: relative;
+  height: 900px;
+  padding-top: 8%;
+}
+
+.border-line {
+  border:1px solid #aa3737;
+  padding: 5% 2% 5%;
+}
+
+.money-maker{
+  background-color:#aa3737;
+  color:#120101;
+  font-family:'Libre Baskerville';
+  font-size:30px;
+}
+
+.money-maker:hover{
+  background-color:#120101;
+  color:#aa3737;
+  border:1px solid #aa3737;
+}
+
+.foot-section {
+  margin-top: 1%;
+
+  position: relative;
+  border-top: 2px solid #aa3737;
+}
+
+
+.tiny{
+  width:70%;
+}
+
+
+/* form */
+
 
 /*Chrome*/
 @media screen and (-webkit-min-device-pixel-ratio:0) {
