@@ -1,12 +1,12 @@
 body {
   text-align: center;
-  background-color: #393e46;
+  background-color: #f0ead6;
   font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6, p {
   font-family: 'Ubuntu', serif;
-  color: #00adb5;
+  color: #3d2814;
 }
 
 header {
@@ -19,13 +19,13 @@ h1 {
   margin-bottom: 70px;
 }
 
-/*NAVBAR sadness*/
+/*NAVBAR*/
 
 
 .topnav {
 
   overflow: hidden;
-  background-color: #222831;
+  background-color: #3d2814;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -34,8 +34,8 @@ h1 {
 }
 
 .topnav a {
-  color: #00adb5;
-  background-color: #222831;
+  color: #f0ead6;
+  background-color: #3d2814;
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
   padding: 20px 32px;
@@ -50,7 +50,7 @@ h1 {
 }
 
 .topnav a.active {
-  background-color: #00adb5;
+  background-color: #996b3f;
   color: white;
 }
 
@@ -84,7 +84,7 @@ h1 {
 
 /*Books*/
 .book-section {
-  background-color:#2b2f36;
+  background-color:#d1ccba;
   position: relative;
   height: 900px;
   padding-top: 8%;
@@ -92,7 +92,7 @@ h1 {
 }
 
 .row {
-  background-color:#2b2f36;
+  background-color:#d1ccba;
   margin-right: 0;
   margin-left: 0;
 }
@@ -103,13 +103,13 @@ h1 {
 
 /*Footer*/
 .footer-section {
-  border-top: 2px solid #00adb5;
+  border-top: 2px solid #3d2814;
 }
 
 .social-icon {
   margin: 20px 30px;
   font-size: 2em;
-  color: #00adb5;
+  color: #3d2814;
 }
 
 /*EditingPage*/
@@ -128,12 +128,12 @@ h1 {
 }
 
 .border-line {
-  border:1px solid #00adb5;
+  border:1px solid #3d2814;
   padding: 5% 2% 5%;
 }
 
 .money-maker{
-  background-color:#00adb5;
+  background-color:#D1CCBA;
   color:#120101;
   font-family:'Ubuntu';
   font-size:30px;
@@ -141,13 +141,13 @@ h1 {
 }
 
 .money-maker:hover{
-  background-color:#393e46;
-  color:#00adb5;
-  border:1px solid #00adb5;
+  background-color:#3d2814;
+  color:#D1CCBA;
+  border:1px solid #D1CCBA;
 }
 
 .contactr{
-  background-color:#2b2f36;
+  background-color:#D1CCBA;
 }
 
 .tiny{
