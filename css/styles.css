@@ -63,22 +63,17 @@ h1 {
   display: none;
 }
 
-/*Image powaa sadness*/
+/*Image powaa*/
 .cover {
 
-  position: relative;
-  top: 55px;
   width: 100%;
   height: auto;
 }
 
-/*About me I am strong*/
+/*About me*/
 .about-section {
-
-  position: relative;
   text-align: center;
-  margin-top: 20%;
-  padding-top: 8%;
+  padding: 8% 0 8%;
 }
 
 .lifestory {
@@ -90,10 +85,7 @@ h1 {
 /*Books*/
 .book-section {
   background-color:#d1ccba;
-  position: relative;
-  height: 900px;
-  padding-top: 8%;
-
+  padding: 8% 0 4%;
 }
 
 .row {
@@ -111,7 +103,7 @@ h1 {
 }
 
 .description, .prices {
-  padding: 2% 2% 10%;
+  padding: 7% 2% 7%;
 }
 
 /*Footer*/
@@ -127,17 +119,14 @@ h1 {
 
 /*EditingPage*/
 .explanation-section{
-  position: relative;
   text-align: center;
-   margin-top: 500px;
   padding-top: 8%;
 }
 
 .package-section {
 
-  position: relative;
-  height: 900px;
-  padding-top: 8%;
+
+  padding: 8% 0 8%;
 }
 
 .border-line {
