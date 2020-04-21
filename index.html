@@ -1,221 +1,158 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+body {
+  margin:0;
+  width:100%;
+  height:100vh;
 
-<head>
-  <meta charset="utf-8">
-  <title>Samir Karam | Author | Editor</title>
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  text-align: center;
+  background-color: #f0ead6;
+  font-size: 16px;
+}
 
-  <!-- CSS Stylesheets please update already -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" type="text/css" href="freecontactform.css">
-  <!--Favicon is my shit-->
-  <link rel="icon" href="favicon.ico">
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu', serif;
+  color: #3d2814;
+}
 
-  <!-- Font Awesomer -->
-  <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+p{
+  font-family: 'Ubuntu', serif;
+  color:#222831;
+}
 
-  <!-- ScrollScript -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="js/scroll.js"></script>
+header {
+  position: fixed;
+  width: 100%;
+  z-index:9000;
+}
 
+h1 {
+  margin-bottom: 70px;
+}
 
-</head>
-
-<body>
-  <!-- Nav Bar -->
-  <header>
-
-    <div class="topnav">
-      <a href="" class="active">SK</a>
-      <a  href="#about">About</a>
-      <a  href="#books">Author</a>
-      <a  href="#editing">Editing</a>
-      <a  href="#footer">Contact</a>
-
-      <!-- <a href="https://zerorewind.livejournal.com">My Blog</a> -->
-    </div>
+/*NAVBAR*/
 
 
-  </header>
+.topnav {
+  overflow: hidden;
+  background-color: #222831;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
 
-  <div class="">
-    <img src="images/2.jpg" class="cover" alt="">
-  </div>
+.topnav a {
+  color: #f0ead6;
+  background-color: #222831;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  padding: 20px 32px;
+  text-decoration: none;
+  font-size: 18px;
+}
 
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
 
-  <!-- About Me -->
-  <section class="about-section" id="about">
-    <div class="">
-      <h1><u>About</u></h1>
-      <div class="lifestory">
+.topnav a.active {
+  background-color: #996b3f;
+  color: white;
+}
 
-        <p>The story of how I became a fantasy writer is probably something you've heard before— or even experienced yourself!</p>
-        <br>
-        <p>I grew up on games and anime, slowly learning to appreciate the value of a good story. I started with simple RPGs, as they had the most story compared to shooters and the like. As the gaming industry continued to progress, I began
-          noticing a higher amount of story-driven videogames such as 'The Last Of Us', 'Mass Effect' and many others.<p>
-          </p>
-          <br>
-          <p>All the while, I delved into the world of fanfiction for all of my favorite games and anime, which eventually led me to gain an appreciation for the written word and its tremendous potential. And so, I took the next natural step and
-            dove headlong into many fantasy novels, going on epic adventures and experiencing all emotions under the sun.</p>
-          <br>
-          <p>Most importantly, I knew that this was what I truly loved.</p>
-          <br>
-          <p>And so, here I am, making my contribution to this remarkable society. I am glad to share my stories with you all and I hope you enjoy reading them as much as I enjoyed writing them.</p>
-      </div>
+.topnav .icon {
+  display: none;
+}
 
-    </div>
-  </section>
-
-  <!--Books -->
-  <section class="book-section" id="books">
-    <div class="">
-      <h1><u>Books</u></h1>
-      <div class="row">
-        <div class="col-md-6 lifestory">
-          <img class="coverart" src="images/TheDregOfBellmead.jpg" alt="TheDregOfBellmead">
-        </div>
-        <div class="col-md-6 lifestory description">
-          <h2>The Dreg Of Bellmead</h2>
-          <br>
-          <p>Finding out there was a world of magic lurking right under his nose sounded like fun— until he made contact.</p>
-          <p>Instead, Nevan has to fight for his survival in a world of monsters, blood sacrifice and death, as well as maintain his sanity when the voices of the souls he'd consumed begin to speak to him.</p>
-          <p><a href="https://www.amazon.com/dp/1692456148"><img src="images/amazon.png" alt="Available now, on Amazon!"><a></p>
-          <p><a href="images/Ard-Full-Map.jpg"><img src="images/worldmapicon.png" alt=""></a></p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="explanation-section" id="editing">
-    <div class="">
-      <h1><u>It isn't just about the spelling.</u></h1>
-      <div class="lifestory">
-        <p>Of course, never let it be said that spelling isn't important, but it is only a small slice of the pie that is editing!</p>
-        <p>So, what else is left in the editing process, you may wonder?</p>
-        <p>I'm glad you asked. Here are some aspects of writing I give special attention to when editing your precious work:</p>
-        <br>
-
-        <div class="row">
-
-          <div class="col-lg-6 col-md-6 border-line">
-            <h2><u>Vocabulary</u></h2>
-            <p>Your spelling may be impeccable, but if your vocabulary is not up to par, you end up using the same words, over and over!</p>
-            <p>Example: "He coldly replied, giving his brother a cold look."</p>
-            <p>The error here is the repetition of the word "cold".</p>
-            <p>Edited: "He coldly replied, giving his brother a frigid look."</p>
-            <br>
-          </div>
-
-          <div class="col-lg-6 col-md-6 border-line">
-            <h2><u>Punctuation</u></h2>
-            <p>Where you punctuate can make a huge difference. I believe the most famous example is:</p>
-            <p>"Let's eat, Grandpa!" vs. "Let's eat Grandpa!"</p>
-            <p>As you can see, a single mistake can show the difference between having dinner with a grandparent, and eating said grandparent.</p>
-            <p>Note: please don't ever eat Grandpa. He's nice.</p>
-            <br>
-          </div>
-
-          <div class="col-lg-12 border-line">
-            <h2><u>Narrative Flow</u></h2>
-            <p>This is the big one. Narrative flow can make or break your story.</p>
-            <p>The biggest truth in writing is summed up in this quote: "An idea is only as good as its execution."</p>
-            <p>You might have created an epic tale, but if its flow is stunted, it can spell doom for your book!</p>
-            <p>What do I mean by this?</p>
-            <p>Your story has a rhythm to it. You set the pace, and the reader unconsciously matches your pace. So, what happens if this pace is broken?</p>
-            <p>Here's a simple example:</p>
-            <p>"Brendan swerved his bike to the left at the last minute, narrowly escaping death by truck."</p>
-            <p>As you can tell, the intent of this line is to make the reader feel as if Brendan was lucky to survive. The problem, however, is the use of "the last minute".</p>
-            <p>A minute is sixty seconds, of course. So, while the reader understands the intent, the narrative flow is nonetheless broken. In turn, this breaks immersion, which can doom your book's chances.</p>
-            <p>Simply switching "minute" with "second" would have averted disaster.</p>
-          </div>
-
-        </div>
-        <br>
-        <br>
-        <h2><u>Point is:</u></h2>
-        <p>These are only some of the aspects I thoroughly critique when combing through a manuscript. I have a good eye when it comes to this sort of thing.</p>
-        <p>I can't tell you how many good, self-published stories that I've read broke my immersion through mistakes in flow, vocabulary, punctuation, or even spelling!</p>
-        <p>Speaking as an author, I find myself getting swept up in my own world and forget to edit properly. I call it "Author's Curse". The Curse can only be lifted by an editor in the light of the full Moon.</p>
-        <p>Minus the Moon.</p>
+/*Image powaa*/
+.cover {
+  width: 100%;
+  
+}
 
 
-      </div>
-    </div>
-  </section>
+/* GRID LAYOUT */
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex-basis: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  .column {
+    flex: 1;
+  }
+}
+
+/*About me*/
+.about-section {
+  text-align: center;
+  padding: 8% 0 8%;
+}
+
+.lifestory {
+  
+  width: 90%;
+  margin: 0 auto 0 auto;
+}
+
+/*Books*/
+.book-section {
+  background-color:#d1ccba;
+  padding: 5% 0 5%;
+  margin-top:0;
+}
+
+.raw {
+  margin-top:0;
+  
+  background-color:#d1ccba;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.coverart{
+  box-shadow: 10px 10px  5px rgba(0,0,0,0.6);
+ -moz-box-shadow: 10px 10px  5px rgba(0,0,0,0.6);
+ -webkit-box-shadow: 10px 10px  5px rgba(0,0,0,0.6);
+ -o-box-shadow: 10px 10px  5px rgba(0,0,0,0.6);
+ border-radius:10px;
+}
+
+.description {
+  font-size:140%;
+  text-align: left;
+  padding: 3% 1% 3%;
+}
 
 
-  <section class="package-section" id="fix">
-    <div class="lifestory">
-      <h1><u>Packages</u></h1>
-      <p><strong>Tier 1:</strong> A low-level edit, where I only focus on the basics. I locate and correct— or highlight, depending on your preference— spelling, grammar and punctuation errors.</p>
-      <p><strong>Tier 2:</strong> The recommended option. On top of correcting grammar, punctuation and spelling, I will find and fix all errors which break narrative flow. These errors include awkward phrases, plot holes, and words that just don't
-        seem to fit your story.</p>
-      <br>
-      <h2><u>Rates</u></h2>
-      <p><strong>Tier 1:</strong> $0.0045 per word.</p>
-      <p><strong>Tier 2:</strong> $0.006 per word.</p>
-      <h6>Minimum charge for "Tier 1" and "Tier 2" is $10.</h6>
-      <h6>Currency is in U.S. Dollars</h6>
-    </div>
+.map{
+  padding-right:3%;
+}
 
 
+/*Footer*/
+.footer-section {
+  border-top: 2px solid #222831;
+}
 
-    <div class="lifestory" style="padding-top:5%">
-      <h1><u>Free Sample</u></h1>
-      <p>As a gesture of goodwill, I will proofread a small section of your story: a chapter or a 3000-4000 sample for free.</p>
-      <p>If you find the results of the editing to your liking, then we can discuss sending the rest for either a basic "Tier 1" edit or the more complete "Tier 2" edit.</p>
-      <p>I accept payment through PayPal, though you do not require a PayPal account for us to do business.</p>
-      <h3>Together, we will ensure that your beautiful tale reaches its full potential! Get started by completing the contact form below!</h3>
-    </div>
+.social-icon {
+  margin: 20px 30px;
+  font-size: 2em;
+  color: #222831;
+}
 
-    <div class="lifestory tiny">
-      <br>
-      <h5>Payment policy: All services under $100 will require upfront payment. For the services over $100, you may choose to pay half the cost upfront as a deposit, with the other half when the completed work is submitted.</h5>
-      <h5>Refund policy: I do not offer refunds for completed work. If you decide to cancel your order before the work is done, I will give a refund on the original price minus the cost of the completed work.</h5>
-      <h5>Disclaimer: Editing, while increasing your chance of success, does not guarantee book sales and favorable reviews.</h5>
+/* form */
+.contactr{
+  margin-top:1%;
+}
 
-
-    </div>
-
-
-    </section>
-
-  <!-- FORM -->
-
-
-  <section id="footer">
-    <div class="contactr">
-      <div data-embed-src="https://kontactr.com/form/7dde2854c1e5620"></div>
-      <script src="https://d3vxmrleduyji.cloudfront.net/js/e.js"></script>
-    </div>
-  </section>
-
-
-
-
-
-  <!--Contact -->
-  <section class="footer-section">
-    <div class="">
-      <a href="https://twitter.com/ZeroRewind"><i class="social-icon fab fa-twitter"></i></a>
-      <!-- <a href="mailto:anasamirkaram@hotmail.com"><i class="social-icon fas fa-envelope"></i></a> -->
-      <a href="https://zerorewind.wordpress.com"><i class="social-icon fas fa-blog"></i></a>
-      <a href="https://www.facebook.com/samirkaramauthor/"><i class="social-icon fab fa-facebook-f"></i></a>
-      <a href="https://www.paypal.me/SamirKaram"><i class="social-icon fas fa-donate"></i></a>
-      <p>© Copyright 2019 Samir Karam</p>
-    </div>
-  </section>
-
-
-
-
-  <!-- <script src="https://d3vxmrleduyji.cloudfront.net/js/e.js"></script> -->
-</body>
-
-
-
-
-</html>
+/*Chrome*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  Body {
+    font-size: 20px;
+  }
+}
