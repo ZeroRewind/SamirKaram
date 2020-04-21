@@ -1,10 +1,14 @@
 body {
+  margin:0;
+  width:100%;
+  height:100vh;
+
   text-align: center;
   background-color: #f0ead6;
   font-size: 16px;
 }
 
-h1, h2, h3, h4, h5, h6, {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Ubuntu', serif;
   color: #3d2814;
 }
@@ -28,14 +32,11 @@ h1 {
 
 
 .topnav {
-
   overflow: hidden;
   background-color: #222831;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-
-
 }
 
 .topnav a {
@@ -46,7 +47,6 @@ h1 {
   padding: 20px 32px;
   text-decoration: none;
   font-size: 18px;
-
 }
 
 .topnav a:hover {
@@ -65,9 +65,26 @@ h1 {
 
 /*Image powaa*/
 .cover {
-
   width: 100%;
-  height: auto;
+  
+}
+
+
+/* GRID LAYOUT */
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex-basis: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  .column {
+    flex: 1;
+  }
 }
 
 /*About me*/
@@ -77,18 +94,21 @@ h1 {
 }
 
 .lifestory {
-  font-size: 125%;
+  
   width: 90%;
-  margin: auto;
+  margin: 0 auto 0 auto;
 }
 
 /*Books*/
 .book-section {
   background-color:#d1ccba;
-  padding: 8% 0 4%;
+  padding: 5% 0 5%;
+  margin-top:0;
 }
 
-.row {
+.raw {
+  margin-top:0;
+  
   background-color:#d1ccba;
   margin-right: 0;
   margin-left: 0;
@@ -103,10 +123,15 @@ h1 {
 }
 
 .description {
+  font-size:140%;
   text-align: left;
-  padding: 7% 2% 7%;
+  padding: 3% 1% 3%;
 }
 
+
+.map{
+  padding-right:3%;
+}
 
 
 /*Footer*/
@@ -120,36 +145,12 @@ h1 {
   color: #222831;
 }
 
-/*EditingPage*/
-.explanation-section{
-  text-align: center;
-  padding-top: 8%;
-}
-
-.package-section {
-
-
-  padding: 8% 0 8%;
-}
-
-.border-line {
-  border:1px solid #3d2814;
-  padding: 5% 2% 5%;
-}
-
-.contactr{
-  background-color:#D1CCBA;
-}
-
-.tiny{
-  width:70%;
-}
-
-
 /* form */
+.contactr{
+  margin-top:1%;
+}
 
-
-/*Chromes*/
+/*Chrome*/
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   Body {
     font-size: 20px;
